@@ -17,6 +17,6 @@ There are various trial parameters, each in its own array:
    - to_x - X-coordinate of state they chosen on this trial
    - to_y - Y-coordinate of ...
 
-Simply run [rate_maps.py](rate_maps.py) and it will generate various rate map plots for each neuron like the one below. The question is whether or not any of these are actual grid cells. 
+Simply run [rate_maps.py](rate_maps.py) and it will generate various rate map plots for each neuron like the one below.
 
 ![image](plots/plot_optionMade_Area32_17.png)
