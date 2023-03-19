@@ -7,6 +7,7 @@ from misc import Utils, ImportDm
 from functools import partial
 import multiprocessing
 
+# We take either the time of choice or 300 ms after options were presented (i.e., average RT).
 timestamps = {'optionMade':100, 'optionsOn':130}
 
 
