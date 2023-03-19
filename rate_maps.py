@@ -133,7 +133,7 @@ def func(area, cell):
 
 
 if __name__ == '__main__':
-    parallel = F
+    parallel = True
     if parallel:
         for area in ImportDm.areas[::-1]:
             f = partial(func, area)
