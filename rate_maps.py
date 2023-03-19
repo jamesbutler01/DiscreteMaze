@@ -134,11 +134,12 @@ def func(area, cell):
 
 if __name__ == '__main__':
     parallel = True
-    if parallel:
-        for area in ImportDm.areas[::-1]:
+    for area in ImportDm.areas[::-1]:
+        if parallel:
             f = partial(func, area)
             pool = multiprocessing.Pool()
             pool.map(f, range(ImportDm.n[area]))
-    else:
-        for cell in range(ImportDm.n[area]):
-            func(area, cell)
+        else:
+            for cell in range(ImportDm.n[area]):
+                func(area, cell)
+
