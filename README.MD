@@ -2,7 +2,7 @@
 
 Data recorded from Vinny performing the 'Discrete Maze' [task](misc/Task.pdf). A 9x12 maze where each state is an unrelated image connected to its 4 direct neighbours. On each trial Vinny is shown a target location, and must choose the correct states to lead him to the target location. He does this with high precision. 
 
-Data consists of individual neurons, 162 from dorsal ACC (dACC), 143 from OFC, and 92 from Area 32. The data has been processed and is ready to use. Rasters have been smoothed and normalised, and consist of one row per trial, and one column per 10 ms of time. They are +/-1000ms of either the time at which the options were displayed on the screen ('optionsOn'), or the time at which Vinny chose one of the options ('optionMade'). 
+Data consist of individual neurons, 162 from dorsal ACC (dACC), 143 from OFC, and 92 from Area 32. The data has been processed and is ready to use. Rasters have been smoothed and normalised, and consist of one row per trial, and one column per 10 ms of time. They are +/-1000ms of either the time at which the options were displayed on the screen ('optionsOn'), or the time at which Vinny chose one of the options ('optionMade'). 
 
 There are various trial parameters, each in its own array:
    - distChange - For this step, what is the new distance to target compared to the previous step (+1 = moved towards target)
